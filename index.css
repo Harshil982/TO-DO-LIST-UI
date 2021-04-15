@@ -1,0 +1,210 @@
+@media screen and (min-width:481px){
+.main-container{
+    margin: 10% 23%;
+}
+.title1
+{
+    margin-left: 30px;
+    font-size: 65px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.title2
+{
+    font-size: 65px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.title3
+{
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-top: 60px;
+}
+.heading-line
+{
+    display: grid;
+    grid-template-columns: 220px 390px 50px 250px ;
+}
+.Tasks
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box-for-task
+{
+    width: 200px;
+    height: 300px;
+    border: 1px solid orangered;
+    border-radius: 9px;
+    box-shadow: 7px 7px 5px lightgray;
+    transition: transform 1s ;
+}
+.box-for-task:hover
+{
+    transform: scale(1.09,1.09);
+}
+.box-for-task:active
+{
+    transform: scale(1.2,1.2);
+}
+.upper-part
+{
+    margin-left: 30px;
+}
+a
+{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    background-color: orange;
+    border-radius: 50%;
+    color: white;
+    font-size: 35px;
+}
+.task-title
+{
+    font-size: 25px;
+    text-align: center;
+    color: orangered;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 7px;
+    margin-top: 25px;
+}
+.task-situation
+{
+    color: orangered;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: 3px line-through orangered;
+}
+.Pending-task
+{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.sign-style
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    background-color: orangered;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-top: 60px;
+}
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .heading-line
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .sign-style
+    {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        font-size: 17px;
+        background-color: orangered;
+        color: white;
+        border-radius: 50%;
+        font-weight: bold;
+    }
+    .title1{
+    width: 30%;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
+    .title2
+    {
+    width: 70%;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    }
+    .title3
+    {
+    width: 92%;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-top: 13px;
+    }
+    .Tasks
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .box-for-task
+    {
+        width: 200px;
+        height: 300px;
+        border: 1px solid orangered;
+        border-radius: 9px;
+        box-shadow: 7px 7px 5px lightgray;
+        margin-top: 20px;
+    }
+    .task-situation
+{
+    color: orangered;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: 3px line-through orangered;
+}
+.upper-part
+{
+    margin-left: 30px;
+}
+a
+{
+    display: none;
+}
+.Pending-task
+{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.task-title
+{
+    font-size: 25px;
+    text-align: center;
+    color: orangered;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 7px;
+    margin-top: 25px;
+}
+}
