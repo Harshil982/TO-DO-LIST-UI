@@ -1,147 +1,257 @@
-.main-container
-{
-    margin:5% 5%;
-}
-h1
-{
-    font-family: sans-serif;
-    text-align: center;
-    position: relative;
-    font-size: 50px;
-    font-weight: bolder;
-}
-h1:before{
-    content: "";
-    display: block;
-    width: 160px;
-    height: 2px;
-    background: gray;
-    position: absolute;
-    left: 28%;
-    top: 50%;
-    z-index: -1;
-}
-h1:after{
-    content: "";
-    display: block;
-    width: 160px;
-    height: 2px;
-    background: gray;
-    position: absolute;
-    right: 28%;
-    top: 50%;
-    z-index: -1;
-}
-span{
-    background: #fff;
+@media screen and (min-width:481px){
+    .main-container
+    {
+        margin:5% 5%;
+    }
+    h1
+    {
+        font-family: sans-serif;
+        text-align: center;
+        position: relative;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    h1:before{
+        content: "";
+        display: block;
+        width: 160px;
+        height: 2px;
+        background: gray;
+        position: absolute;
+        left: 28%;
+        top: 50%;
+        z-index: -1;
+    }
+    h1:after{
+        content: "";
+        display: block;
+        width: 160px;
+        height: 2px;
+        background: gray;
+        position: absolute;
+        right: 28%;
+        top: 50%;
+        z-index: -1;
+    }
+    span{
+        background: #fff;
 
+    }
+    .back
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .next
+    {
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        right: 50px;
+        top: 50%;
+        background-color: orange;
+        border-radius: 50%;
+        color: white;
+        font-size: 35px;
+    }
+    .previous-page
+    {
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        left: 50px;
+        top: 50%;
+        background-color: orange;
+        border-radius: 50%;
+        color: white;
+        font-size: 35px;
+    }
+    .back-sign-style
+    {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size: 25px;
+        background-color: orangered;
+        color: white;
+        border-radius: 50%;
+        font-weight: bold;
+        opacity: .7;
+    }
+    .line
+    {
+        font-size: 25px;
+        font-family: sans-serif;
+        color: gray;
+        margin-left: 15px;
+    }
+    .Task-box
+    {
+        width: 350px;
+        height: 350px;
+        border: 1px solid orangered;
+        border-radius: 15px;
+        box-shadow: 7px 7px 10px rgb(190, 187, 187);
+        margin-left: 38%;
+        margin-top: 25px;
+        position: relative;
+    }
+    .upper-part
+    {
+        margin-left: 90px;
+    }
+    .add-sign-style
+    {
+        width: 35px;
+        height: 35px;
+        background-color: orangered;
+        border-radius: 50%;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        opacity: 0.8;
+        position: absolute;
+        right: 25px;
+        bottom: 2px;
+    }
+    .task-title
+    {
+        font-size: 25px;
+        /*text-align: center;*/
+        color: orangered;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 7px;
+        margin-top: 45px;
+    }
+    .task-situation
+    {
+        color: orangered;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 500;
+        /*text-align: center;*/
+        margin-top: 50px;
+        text-decoration: 3px line-through orangered;
+    }
+    .Pending-task
+    {
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    input[type=checkbox]
+    {
+        margin-left: 70px;
+    }
 }
-.back
-{
-    display: flex;
-    justify-content: center;
-}
-.next
-{
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    text-decoration: none;
-    position: absolute;
-    right: 50px;
-    top: 50%;
-    background-color: orange;
-    border-radius: 50%;
-    color: white;
-    font-size: 35px;
-}
-.previous-page
-{
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    text-decoration: none;
-    position: absolute;
-    left: 50px;
-    top: 50%;
-    background-color: orange;
-    border-radius: 50%;
-    color: white;
-    font-size: 35px;
-}
-.back-sign-style
-{
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    font-size: 25px;
-    background-color: orangered;
-    color: white;
-    border-radius: 50%;
-    font-weight: bold;
-    opacity: .7;
-}
-.line
-{
+@media screen and (min-width:320px) and (max-width:480px){
+    .main-container
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heading
+    {
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .heading-container
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    .line
+    {
+        display: none;
+    }
+    .back-sign-style
+    {
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        font-size: 30px;
+        background-color: orangered;
+        color: white;
+        border-radius: 50%;
+        font-weight: bold;
+        opacity: .7;
+        margin-top: 27px;
+        margin-right: 40px;
+    }
+    .task{
+        display: flex;
+        justify-content: center;
+    }
+    .Task-box
+    {
+        width: 75%;
+        height: 450px;
+        border: 1px solid orangered;
+        border-radius: 9px;
+        box-shadow: 7px 7px 5px lightgray;
+        margin-top: 50px;
+        justify-content: center;
+        position: relative;
+    }
+    .task-title
+    {
+        font-size: 35px;
+        color: orangered;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 7px;
+        margin-top: 45px;
+    }
+    .task-situation
+    {
+        color: orangered;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: 500;
+        margin-top: 50px;
+        text-decoration: 3px line-through orangered;
+    }
+    input[type=checkbox]
+    {
+        margin-left: 40px;
+        height: 20px;
+        width: 20px;
+    }
+    .Pending-task
+    {
     font-size: 25px;
     font-family: sans-serif;
-    color: gray;
-    margin-left: 15px;
-}
-.Task-box
-{
-    width: 350px;
-    height: 350px;
-    border: 1px solid orangered;
-    border-radius: 15px;
-    box-shadow: 7px 7px 10px rgb(190, 187, 187);
-    margin-left: 38%;
-    margin-top: 25px;
-    position: relative;
-}
-.upper-part
-{
-    margin-left: 90px;
-}
-.add-sign-style
-{
-    width: 35px;
-    height: 35px;
-    background-color: orangered;
-    border-radius: 50%;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    opacity: 0.8;
-    position: absolute;
-    right: 25px;
-    bottom: 2px;
-}
-.task-title
-{
-    font-size: 25px;
-    /*text-align: center;*/
-    color: orangered;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 7px;
-    margin-top: 45px;
-}
-.task-situation
-{
-    color: orangered;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: 500;
-    /*text-align: center;*/
-    margin-top: 50px;
-    text-decoration: 3px line-through orangered;
-}
-.Pending-task
-{
-    font-size: 20px;
-    font-family: sans-serif;
-}
-input[type=checkbox]
-{
-    margin-left: 70px;
+    }
+    .upper-part
+    {
+        margin-left: 70px;
+    }
+    .add-sign-style
+    {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 0px;
+        background-color: orangered;
+        color: white;
+        border-radius: 50%;
+        font-weight: bold;
+        opacity: .8;
+        position: absolute;
+        right: 10px;
+        bottom: 15px;
+    }
+    a
+    {
+        display: none;
+    }
 }

@@ -114,97 +114,108 @@ a
 }
 }
 @media screen and (min-width:320px) and (max-width:480px){
+    .main-container
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .heading-line
     {
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
         flex-wrap: wrap;
-    }
-    .sign-style
-    {
-        width: 20px;
-        height: 20px;
-        text-align: center;
-        font-size: 17px;
-        background-color: orangered;
-        color: white;
-        border-radius: 50%;
-        font-weight: bold;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     .title1{
-    width: 30%;
-    font-size: 35px;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+        font-size: 45px;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
     .title2
     {
-    width: 70%;
-    font-size: 35px;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+        font-size: 45px;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        margin-left: -15%;
     }
     .title3
     {
-    width: 92%;
-    font-size: 25px;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    margin-top: 13px;
+        display: none;
+    }
+    .sign-style
+    {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 35px;
+        background-color: rgba(255, 68, 0, 0.829);
+        color: white;
+        border-radius: 50%;
+        font-weight: bold;
     }
     .Tasks
     {
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .box-for-task
     {
-        width: 200px;
-        height: 300px;
-        border: 1px solid orangered;
+        width: 90%;
+        height: 70px;
+        border: 1px solid rgba(255, 68, 0, 0.295);
         border-radius: 9px;
-        box-shadow: 7px 7px 5px lightgray;
-        margin-top: 20px;
+        box-shadow: 4px 5px 5px lightgray;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .task-title
+    {
+        font-size: 25px;
+        text-align: left;
+        color: gray;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 7px;
+        margin-top: 25px;
     }
     .task-situation
-{
-    color: orangered;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 50px;
-    text-decoration: 3px line-through orangered;
-}
-.upper-part
-{
-    margin-left: 30px;
-}
-a
-{
-    display: none;
-}
-.Pending-task
-{
-    font-size: 20px;
-    font-family: sans-serif;
-}
-.task-title
-{
-    font-size: 25px;
-    text-align: center;
-    color: orangered;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 7px;
-    margin-top: 25px;
-}
+    {
+        color: orangered;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 50px;
+        text-decoration: 3px line-through orangered;
+        display: none;
+    }
+    .upper-part
+    {
+        margin-left: 30px;
+    }
+    .horizontal-line
+    {
+        display: none;
+    }
+    input[type=checkbox]
+    {
+        display: none;
+    }
+    a
+    {
+        display: none;
+    }
+    .Pending-task
+    {
+        font-size: 20px;
+        font-family: sans-serif;
+        display: none;
+    }
 }
