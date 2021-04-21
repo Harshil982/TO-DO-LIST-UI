@@ -62,7 +62,7 @@
 {
     margin-left: 30px;
 }
-a
+.next
 {
     height: 40px;
     width: 40px;
@@ -208,9 +208,19 @@ a
     {
         display: none;
     }
-    a
+    .next
     {
-        display: none;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        right:5px;
+        bottom: 5px;
+        background-color: orange;
+        border-radius: 50%;
+        color: white;
+        font-size: 35px;
     }
     .Pending-task
     {
